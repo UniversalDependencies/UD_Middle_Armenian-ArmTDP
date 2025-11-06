@@ -1,6 +1,6 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/contributing/release_checklist.html#the-readme-file) for README guidelines) ...
+A Universal Dependencies treebank for Middle Armenian developed for UD originally by the ArmTDP team led by Marat M. Yavrumyan at the Yerevan State University.
 
 
 # Introduction

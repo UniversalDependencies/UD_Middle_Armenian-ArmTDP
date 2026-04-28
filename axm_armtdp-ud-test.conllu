@@ -32,7 +32,7 @@
 5	թագաւորն	թագաւոր	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	_
 6-7	զիր	_	_	_	_	_	_	_	_
 6	զ	զ	ADP	_	AdpType=Prep	8	case	_	SpaceAfter=No
-7	իր	իր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp|Reflex=Yes	8	det:poss	_	_
+7	իր	իր	DET	_	Case=Acc|Number=Sing|Person=3|PronType=Poss|Reflex=Yes	8	det:poss	_	_
 8	իրաւունքն	իրաւունք	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Sing	9	obj	_	_
 9	տանել	տանել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	4	xcomp	_	_
 10	ըղորդ	ըղորդ	ADV	_	_	9	advmod	_	SpaceAfter=No
@@ -168,7 +168,7 @@
 61	աւերէ	աւերել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
 62-63	զիրենց	_	_	_	_	_	_	_	_
 62	զ	զ	ADP	_	AdpType=Prep	64	case	_	SpaceAfter=No
-63	իրենց	իրենց	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	64	det:poss	_	_
+63	իրենց	իրենց	DET	_	Case=Acc|Number=Plur|Person=3|PronType=Poss	64	det:poss	_	_
 64	զաւդվածքն	զաւդված	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Sing|Style=Var	61	obj	_	_
 65	եւ	եւ	CCONJ	_	_	66	cc	_	_
 66	չսպաննէ	սպաննել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Neg|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	61	conj	_	SpaceAfter=No
@@ -213,7 +213,7 @@
 22	.	.	PUNCT	_	_	36	punct	_	_
 23	եւ	եւ	CCONJ	_	_	36	cc	_	_
 24	երբ	երբ	SCONJ	_	_	28	mark	_	_
-25	իր	իր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp	27	det:poss	_	_
+25	իր	իր	DET	_	Case=Nom|Number=Sing|Person=3|PronType=Poss	27	det:poss	_	_
 26	խիստ	խիստ	ADJ	_	Degree=Pos	27	amod	_	_
 27	ողորմութիւն	ողորմութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	28	compound:lvc	_	_
 28	այնէ	այնել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	36	advcl	_	SpaceAfter=No
@@ -411,10 +411,10 @@
 14	ու	ու	CCONJ	_	_	17	cc	_	_
 15-16	զիր	_	_	_	_	_	_	_	_
 15	զ	զ	ADP	_	AdpType=Prep	17	case	_	SpaceAfter=No
-16	իր	իր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	իր	իր	DET	_	Case=Acc|Number=Sing|Person=3|PronType=Poss	17	det:poss	_	_
 17	տունն	տուն	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Sing	13	conj	_	_
 18	ու	ու	CCONJ	_	_	20	cc	_	_
-19	զինչ	զինչ	PRON	_	Case=Nom|Definite=Ind|PronType=Ind	20	obj	_	_
+19	զինչ	զինչ	PRON	_	PronType=Ind	20	obj	_	_
 20	ուննայ	ուննալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
 21	ու	ու	CCONJ	_	_	22	cc	_	_
 22	ի	ի	ADP	_	AdpType=Prep	23	case	_	_
@@ -428,7 +428,7 @@
 30	ի	ի	ADP	_	AdpType=Prep	32	case	_	_
 31-32	յորդեցն	_	_	_	_	_	_	_	SpaceAfter=No
 31	յ	ի	ADP	_	AdpType=Prep	32	case	_	SpaceAfter=No
-32	որդեցն	որդի	VERB	_	Animacy=Hum|Case=Abl|Definite=Def|Number=Plur	28	conj	_	_
+32	որդեցն	որդի	NOUN	_	Animacy=Hum|Case=Abl|Definite=Def|Number=Plur	28	conj	_	_
 33	։	։	PUNCT	_	_	11	punct	_	_
 
 # sent_id = legal-00AA-00010IDM
@@ -472,7 +472,7 @@
 6	սպաննէ	սպաննել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	SpaceAfter=No
 7	՝	՝	PUNCT	_	_	12	punct	_	_
 8	նա	նա	SCONJ	_	_	12	mark	_	_
-9	նորա	նորա	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Dem	10	det:poss
+9	նորա	նա	PRON	_	Case=Gen|Number=Sing|Deixis=Remt|PronType=Dem	10	det:poss
 10	արեան	արիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Coll	11	nmod:poss	_	_
 11	վրէժխնդիրն	վրէժխնդիր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Coll	12	nsubj	_	_
 12	թագավորին	թագավոր	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	0	root	_	_
@@ -596,7 +596,7 @@
 23	ցաւով	ցաւ	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	20	obl	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	28	punct	_	_
 25	զի	զի	SCONJ	_	_	28	mark	_	_
-26	իւր	իւր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp|Reflex=Yes|Style=Arch	27	det:poss	_	_
+26	իւր	իւր	DET	_	Case=Nom|Number=Sing|Person=3|PronType=Poss|Reflex=Yes|Style=Arch	27	det:poss	_	_
 27	թոյնքն	թոյն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	26	nsubj	_	_
 28	տաք	տաք	ADJ	_	Degree=Pos	15	advcl	_	_
 29	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	28	cop	_	_
@@ -796,7 +796,7 @@
 22	կաղնսէր	կաղնսէր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	20	xcomp	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	30	punct	_	_
 24	զի	զի	SCONJ	_	_	30	mark	_	_
-25	իւր	իւր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp	26	det:poss	_	_
+25	իւր	իւր	DET	_	Case=Nom|Number=Sing|Person=3|PronType=Poss|Reflex=Yes|Style=Arch	26	det:poss	_	_
 26	բնակութիւնն	բնակութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	30	nsubj	_	_
 27	հանապազ	հանապազ	ADV	_	_	30	amod	_	_
 28	ի	ի	ADP	_	AdpType=Prep	30	case	_	_
@@ -805,7 +805,7 @@
 31	լինի	լինիլ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	30	cop	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	35	punct	_	_
 33	եւ	եւ	CCONJ	_	_	35	cc	_	_
-34	իւր	իւր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp	35	det:poss	_	_
+34	իւր	իւր	DET	_	Case=Nom|Number=Sing|Person=3|PronType=Poss|Reflex=Yes|Style=Arch	35	det:poss	_	_
 35	հոտն	հոտ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	30	conj	_	SpaceAfter=No
 36	՝	՝	PUNCT	_	_	38	punct	_	_
 37	հոտած	հոտել	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	38	acl	_	_
@@ -864,7 +864,7 @@
 29	եւ	եւ	CCONJ	_	_	36	cc	_	_
 30-31	զիւր	_	_	_	_	_	_	_	_
 30	զ	զ	ADP	_	AdpType=Prep	33	case	_	SpaceAfter=No
-31	իւր	իւր	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Poss	33	nmod:poss	_	_
+31	իւր	իւր	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Poss|Style=Arch	33	nmod:poss	_	_
 33	ժամանակն	ժամանակ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	36	obl	_	_
 33	այլ	այլ	DET	_	PronType=Ind	34	det	_	_
 34	հոտ	հոտ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	36	obj	_	_
@@ -882,7 +882,7 @@
 # text = Եւ նշան իւր խայթածին այս է. ուռենայ խայթածն, եւ խաղաւարտէ աստ եւ անդ, եւ ելնէ յիւրմէն գիջութիւն եւ յարիւն ջուրի նման, եւ ստամոքն ցաւէ:
 1	Եւ	եւ	CCONJ	_	_	5	cc	_	_
 2	նշան	նշան	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	_
-3	իւր	իւր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp	4	det:poss	_	_
+3	իւր	իւր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp|Style=Arch	4	det:poss	_	_
 4	խայթածին	խայթած	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	2	nmod:poss	_	_
 5	այս	այս	PRON	_	Deixis=Prox|PronType=Dem	0	root	_	_
 6	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
@@ -1067,7 +1067,7 @@
 24	թանձր	թանձր	ADJ	_	Degree=Pos	13	conj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	32	punct	_	_
 26	եւ	եւ	CCONJ	_	_	32	cc	_	_
-27	իւր	իւր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp	28	det	_	_
+27	իւր	իւր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp|Style=Arch	28	det	_	_
 28	խայթածն	խայթած	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	32	nsubj	_	_
 29	ի	ի	ADP	_	AdpType=Prep	32	case	_	_
 30-31	յիժ	_	_	_	_	_	_	_	_

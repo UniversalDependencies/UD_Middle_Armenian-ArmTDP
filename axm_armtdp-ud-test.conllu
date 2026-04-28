@@ -712,7 +712,7 @@
 43	եւ	եւ	CCONJ	_	_	27	cc	_	_
 44	քուն	քուն	PRON	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	47	compound:lvc	_	_
 45-46	չկարէ	_	_	_	_	_	_	_	_
-45	չի	չի	PART	_	Polarity=Neg	46	advmod
+45	չ	չի	PART	_	Polarity=Neg	46	advmod	_	SpaceAfter=No
 46	կարէ	կարել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	_
 47	լինել	լինել	VERB	_	Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	46	xcomp	_	_
 48	ի	ի	ADP	_	AdpType=Prep	50	case	_	_
@@ -748,7 +748,7 @@
 10	ուտիճն	ուտիճ|ուտիչ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	11	nsubj	_	_
 11	հասնի	հասնիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
 12	ի	ի	ADP	_	AdpType=Prep	15	case	_	_
-13-14	յայլ	_	_	_	_	_	_	_	_	
+13-14	յայլ	_	_	_	_	_	_	_	_
 13	յ	ի	ADP	_	AdpType=Prep	15	case	_	SpaceAfter=No
 14	այլ	այլ	DET	_	PronType=Ind	det	15	_	_
 15	անդամսն	անդամ	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Plur	11	obl	_	SpaceAfter=No
@@ -869,8 +869,8 @@
 33	այլ	այլ	DET	_	PronType=Ind	34	det	_	_
 34	հոտ	հոտ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	36	obj	_	_
 35-36	չառնու	_	_	_	_	_	_	_	SpaceAfter=No
-35	չ	չի	PART	_	Polarity=Neg	36 advmod	_	SpaceAfter=No
-36	առնու	առնուլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_
+35	չ	չի	PART	_	Polarity=Neg	36	advmod	_	SpaceAfter=No
+36	առնու	առնուլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
 36	,	,	PUNCT	_	_	39	punct	_	_
 37	քան	քան	ADP	_	AdpType=Prep|ExtPos=ADP	39	case	_	_
 38	թէ	թէ	PART	_	_	37	fixed	_	_
@@ -908,7 +908,10 @@
 25	նման	նման	ADP	_	AdpType=Post	24	case	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	29	punct	_	_
 27	եւ	եւ	CCONJ	_	_	29	cc	_	_
-28	ստամոքն	ստամոք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing
+28	ստամոքն	ստամոք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	29 nsubj	_	_	
+29	ցաւէ	ցաւել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
+30	:	:	PUNCT	_	_	5	punct	_	_
+
 # sent_id = medical-00AB-00010IEI
 # text = Եւ այլ ազգ կայ ի յօձիցն, որ անուանին ծարաւած. երբ այս ազգ օձս խայթէ զմարդն, նայ հանց ցաւէ խիստ, որ այլազգ օձոյնն չցաւէ, եւ խայթածէն արիւն ելնէ, եւ ինքն ծարուենայ եւ բորբոքէ միշտ, եւ չկշտանայ ջրով ի յոլով տաքութենէն եւ ի յոլով կրակէն, որ ի թոյնքն կայր, եւ մարդ չապրի ի նմայ խայթածէն:
 1	Եւ	եւ	CCONJ	_	_	4	cc	_	_
@@ -943,7 +946,7 @@
 28	օձոյ	օձ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	27	nmod:poss	_	SpaceAfter=No
 29	նն	ն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing|Poss=Yes	31	nsubj	_	SpaceAfter=No
 30-31	չցաւէ	_	_	_	_	_	_	_	SpaceAfter=No
-30	չի	չի	PART	_	Polarity=Neg	31	advmod
+30	չ	չի	PART	_	Polarity=Neg	31	advmod	_	SpaceAfter=No
 31	ցաւէ	չցաւ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	23	advcl	_	_
 32	,	,	PUNCT	_	_	36	punct	_	_
 33	եւ	եւ	CCONJ	_	_	36	cc	_	_
@@ -960,7 +963,7 @@
 44	,	,	PUNCT	_	_	42	punct	_	_
 45	եւ	եւ	CCONJ	_	_	47	cc	_	_
 46-47	չկշտանայ	_	_	_	_	_	_	_	_
-46	չի	չի	PART	_	Polarity=Neg	47	advmod
+46	չ	չի	PART	_	Polarity=Neg	47	advmod	_	SpaceAfter=No
 47	կշտանայ	կշտանալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
 48	ջրով	ջուր	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	47	obl	_	_
 49	ի	ի	ADP	_	AdpType=Prep	51	case	_	_
@@ -979,7 +982,7 @@
 62	եւ	եւ	CCONJ	_	_	65	cc	_	_
 63	մարդ	մարդ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	65	nsubj	_	_
 64-65	չապրի	_	_	_	_	_	_	_	_
-64	չի	չի	PART	_	Polarity=Neg	65	advmod
+64	չ	չի	PART	_	Polarity=Neg	65	advmod	_	SpaceAfter=No
 65	ապրի	ապրիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
 66	ի	ի	ADP	_	AdpType=Prep	68	case	_	_
 67	նմայ	նա	PRON	_	Case=Dat|Deixis=Remt|Number=Sing|PronType=Dem	68	nmod:npmod	_	_
@@ -1035,7 +1038,7 @@
 43	գայ	գալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	15	conj	_	_
 44	հոտ	հոտ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	43	nsubj	_	_
 45	ի	ի	ADP	_	AdpType=Prep	46	case	_	_
-46	նմանէ	PRON	_	Case=Abl|Deixis=Remt|Number=Sing|PronType=Dem	43	obl	_	SpaceAfter=No
+46	նմանէ	նա	PRON	_	Case=Abl|Deixis=Remt|Number=Sing|PronType=Dem|Style=Arch	43	obl	_	SpaceAfter=No
 47	:	:	PUNCT	_	_	4	punct	_	_
 
 # sent_id = medical-00AB-00010IEK
@@ -1085,7 +1088,7 @@
 41	մարմինն	մարմին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	38	conj	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	22	punct	_	_
 43	որպէս	որպէս	ADP	_	AdpType=Prep	44	case	_	_
-44	արծուիք	արծուիք	VERB	_	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Ptan	37	obl	_	SpaceAfter=No
+44	արծուիք	արծուիք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Ptan	37	obl	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	26	punct	_	_
 46	մարմինն	մարմին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	26	nsubj	_	_
 47	լինի	լինիլ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	48	cop	_	_
@@ -1156,7 +1159,7 @@
 46	հետն	հետ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	49	nsubj	_	_
 47	զերթ	զերթ	ADP	_	AdpType=Prep|Style=Var	49	case	_	_
 48	ասխան	ասեխ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	49	nmod:poss	_	_
-49	հետ	հետ	հետ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	2	conj	_	_
+49	հետ	հետ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	2	conj	_	_
 50	լինի	լինիլ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	49	cop	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	53	punct	_	_
 52	բայց	բայց	CCONJ	_	_	53	cc	_	_
@@ -1218,7 +1221,7 @@
 27	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 28	ի	ի	ADP	_	AdpType=Prep	19	case	_	_
 29	մարդոյն	մարդ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	27	obl	_	_
-30	յոլով	ADJ	_	Degree=Pos	31	amod	_	_
+30	յոլով	ADJ	_	Degree=Pos	31	amod	_	_	_
 31	փուք	փուք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	27	nsubj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	եւ	եւ	CCONJ	_	_	34	cc	_	_

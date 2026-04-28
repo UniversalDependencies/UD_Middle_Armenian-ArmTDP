@@ -2,7 +2,6 @@
 # newdoc id = legal-00AA
 # newpar id = legal-00AA-0001
 # sent_id = legal-00AA-00010IDB
-
 # text = Չէ իրավունք որ թագաւոր անպսակ սիրղով կենայ. զի Աստուծոյ եւ հայրապետին աւրինադրակից է. թող աւրինաւոր ամուսնանայ։
 1	Չէ	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	իրավունք	իրավունք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing|Style=Var	0	root	_	_
@@ -865,7 +864,7 @@
 29	եւ	եւ	CCONJ	_	_	36	cc	_	_
 30-31	զիւր	_	_	_	_	_	_	_	_
 30	զ	զ	ADP	_	AdpType=Prep	33	case	_	SpaceAfter=No
-31	իւր	իւր	DET	_	PronType=Tot	33	det	_	_
+31	իւր	իւր	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Poss	33	nmod:poss	_	_
 33	ժամանակն	ժամանակ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	36	obl	_	_
 33	այլ	այլ	DET	_	PronType=Ind	34	det	_	_
 34	հոտ	հոտ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	36	obj	_	_

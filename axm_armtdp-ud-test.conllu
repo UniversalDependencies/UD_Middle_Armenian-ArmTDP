@@ -1009,7 +1009,7 @@
 19	ջուրն	ջուր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	17	obl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	25	punct	_	_
 21	եւ	եւ	CCONJ	_	_	25	cc	_	_
-22	յորժամ	յորժամ	ADV	_	Degree=Pos	25	advmod	_	_
+22	յորժամ	յորժամ	ADV	_	_	25	advmod	_	_
 23-24	զմարդն	_	_	_	_	_	_	_	_
 23	զ	զ	ADP	_	AdpType=Prep	25	case	_	SpaceAfter=No
 24	մարդն	մարդ	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Sing	25	obj	_	_
@@ -1078,7 +1078,7 @@
 34	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	32	cop	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	եւ	եւ	CCONJ	_	_	37	cc	_	_
-37	ուռենայ	ուռենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+37	ուռենայ	ուռենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm|VerbForm=Fin|Voice=Mid	2	conj	_	_
 38	խայթածն	խայթած	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	37	nsubj	_	_
 39	եւ	եւ	CCONJ	_	_	41	cc	_	_
 40	այլ	այլ	DET	_	PronType=Ind	41	det	_	_
@@ -1118,7 +1118,7 @@
 10	եւ	եւ	CCONJ	_	_	22	cc	_	_
 11	այս	այս	DET	_	Deixis=Prox|PronType=Dem	12	det	_	_
 12	օձս	օձ	NOUN	_	Animacy=Nhum|Case=Nom|Deixis[psor]=Prox|Number=Sing	22	nsubj	_	_
-13	յորժամ	յորժամ	ADV	_	Degree=Pos	15	advmod	_	_
+13	յորժամ	յորժամ	ADV	_	_	15	advmod	_	_
 14	ի	ի	ADP	_	AdpType=Prep	15	case	_	_
 15	գնալն	գնալ	VERB	_	Case=Nom|Definite=Def|Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	16	obl	_	_
 16	լինի	լինիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	22	advcl	_	SpaceAfter=No

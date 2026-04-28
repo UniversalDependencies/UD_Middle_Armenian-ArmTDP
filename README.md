@@ -2,7 +2,6 @@
 
 A Universal Dependencies treebank for Middle Armenian developed for UD originally by the ArmTDP team led by Marat M. Yavrumyan at the Yerevan State University.
 
-
 # Introduction
 
 ...
@@ -19,17 +18,17 @@ A Universal Dependencies treebank for Middle Armenian developed for UD originall
 
 # Changelog
 
-* 2025-11-15 v2.17
+* 2026-05-15 v2.18
   * Initial release in Universal Dependencies.
 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.17
+Data available since: UD v2.18
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: grammar-examples
+Genre: legal medical
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available

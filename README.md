@@ -4,9 +4,7 @@ A Universal Dependencies treebank for Middle Armenian developed for UD originall
 
 # Introduction
 
-The UD_Middle_Armenian-ArmTDP treebank is based on the Middle Armenian section of the Հայերենի ծառադարան dataset (ArmTDP v3.0), a broad-coverage corpus of Standard Armenian covering numerous genres.
-
-The annotation scheme was developed in accordance with the UD guidelines. The original data was manually annotated by the ArmTDP team. The tokenization and POS-tagging process was carried out through alternating steps of glossary-based automatic scripting and manual revision. The treebank is the only manually verified corpus of Middle Armenian, supplied with comprehensive morphological and syntactic annotation in the form of a complete dependency tree for every sentence.
+The UD_Middle_Armenian-ArmTDP treebank is derived from the Middle Armenian component of the ArmTDP v3.0 (Հայերենի ծառադարան), a comprehensive corpus of the Armenian language across various genres. Adhering strictly to Universal Dependencies (UD) guidelines, the dataset was manually annotated by the ArmTDP team. The processing pipeline—including tokenization and POS-tagging—utilized a hybrid approach of glossary-based automation followed by rigorous manual revision. As the only manually verified corpus of Middle Armenian, it provides exhaustive morphological and syntactic annotations, featuring complete dependency trees for every sentence.
 
 
 # Acknowledgments

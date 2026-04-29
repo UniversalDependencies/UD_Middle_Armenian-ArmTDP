@@ -407,7 +407,7 @@
 11	ծախեն	ծախել	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12-13	զինքն	_	_	_	_	_	_	_	_
 12	զ	զ	ADP	_	AdpType=Prep	13	case	_	SpaceAfter=No
-13	ինքն	ինք	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	ինքն	ինք	PRON	_	Case=Acc|Deixis[psor]=Remt|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 14	ու	ու	CCONJ	_	_	17	cc	_	_
 15-16	զիր	_	_	_	_	_	_	_	_
 15	զ	զ	ADP	_	AdpType=Prep	17	case	_	SpaceAfter=No
@@ -437,7 +437,7 @@
 2	թէ	թէ	SCONJ	_	_	6	mark	_	_
 3-4	յոչ	_	_	_	_	_	_	_	_
 3	յ	ի	ADP	_	AdpType=Prep	5	case	_	SpaceAfter=No
-4	ոչ	ոչ	PART	_	Polarity=Neg	advmod:emph	5	_	_	
+4	ոչ	ոչ	PART	_	Polarity=Neg	5	advmod:emph	_	_
 5	կամայ	կամ	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing|Style=Rare	6	obl	_	_
 6	լինի	լինիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	13	advcl	_	_
 7	սպաննութիւնն	սպաննութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	6	nsubj	_	SpaceAfter=No
@@ -494,7 +494,7 @@
 2	թէ	թէ	SCONJ	_	_	6	mark	_	_
 3-4	յոչ	_	_	_	_	_	_	_	_
 3	յ	ի	ADP	_	AdpType=Prep	5	case	_	SpaceAfter=No
-4	ոչ	ոչ	PART	_	Polarity=Neg	5	advmod:emph	_	_	
+4	ոչ	ոչ	PART	_	Polarity=Neg	5	advmod:emph	_	_
 5	կամայ	կամ	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing|Style=Rare	6	obl	_	_
 6	լինայ	լինալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	9	advcl	_	SpaceAfter=No
 7	՝	՝	PUNCT	_	_	9	punct	_	_
@@ -526,7 +526,7 @@
 10	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
 11	՝	՝	PUNCT	_	_	14	punct	_	_
 12	որ	որ	SCONJ	_	_	14	mark	_	_
-13	ինքն	ինք	PRON	_	Case=Nom|Number=Sing|Person[psor]=3|PronType=Emp	14	nsubj	_	_
+13	ինքն	ինք	PRON	_	Case=Nom|Deixis[psor]=Remt|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	դատէ	դատել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	9	csubj:outer	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	23	punct	_	_
 16	եւ	եւ	CCONJ	_	_	23	cc	_	_
@@ -691,7 +691,7 @@
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	եւ	եւ	CCONJ	_	_	27	cc	_	_
 25	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	cop	_	_
-26	ինքն	ինք	PRON	_	Case=Nom|Number=Sing|Person[psor]=3|PronType=Emp	27	nsubj	_	_
+26	ինքն	ինք	PRON	_	Case=Nom|Number=Sing|Deixis[psor]=Remt|Person=3|PronType=Prs	27	nsubj	_	_
 27	կարմիր	կարմիր	ADJ	_	Degree=Pos	5	conj	_	_
 28	եւ	եւ	CCONJ	_	_	29	cc	_	_
 29	մքգոյն	մքգոյն	ADJ	_	Degree=Pos	27	conj	_	SpaceAfter=No
@@ -791,7 +791,7 @@
 18	.	.	PUNCT	_	_	20	punct	_	_
 19	եւ	եւ	CCONJ	_	_	20	cc	_	_
 20	ասեն	ասել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
-21	իւրն	ինք	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Emph|Style=Arch	20	obj	_	_
+21	իւրն	ինք	PRON	_	Case=Dat|Deixis[psor]=Remt|Number=Sing|Person=3|PronType=Prs|Style=Arch	20	obj	_	_
 22	կաղնսէր	կաղնսէր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	20	xcomp	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	30	punct	_	_
 24	զի	զի	SCONJ	_	_	30	mark	_	_
@@ -899,7 +899,7 @@
 18	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
 19-20	յիւրմէն	_	_	_	_	_	_	_	_
 19	յ	ի	ADP	_	AdpType=Prep	20	case	_	SpaceAfter=No
-20	իւրմէն	ինք	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Emph|Style=Arch	18	obl	_	_
+20	իւրմէն	ինք	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs|Style=Arch	18	obl	_	_
 21	գիջութիւն	գիջութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	18	obj	_	_
 22	եւ	եւ	CCONJ	_	_	23	cc	_	_
 23	յարիւն	արիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Coll|Typo=Yes	21	conj	_	_
@@ -954,7 +954,7 @@
 36	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	40	punct	_	_
 38	եւ	եւ	CCONJ	_	_	40	cc	_	_
-39	ինքն	ինք	PRON	_	Case=Nom|Number=Sing|Person[psor]=3|PronType=Emp	40	nsubj	_	_
+39	ինքն	ինք	PRON	_	Case=Nom|Deixis[psor]=Remt|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
 40	ծարուենայ	ծարուենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
 41	եւ	եւ	CCONJ	_	_	42	cc	_	_
 42	բորբոքէ	բորբոքել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
@@ -1024,7 +1024,7 @@
 31	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	15	conj	_	_
 32-33	յիւրմէն	_	_	_	_	_	_	_	_
 32	յ	ի	ADP	_	AdpType=Prep	33	case	_	SpaceAfter=No
-33	իւրմէն	ինք	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Emph|Style=Arch	31	obl	_	_
+33	իւրմէն	ինք	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs|Style=Arch	31	obl	_	_
 34	գիճութիւն	գիճութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	31	nsubj	_	_
 35	սեւ	սեւ	ADJ	_	Degree=Pos	36	amod	_	_
 36	գոյն	գոյն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	34	nmod	_	SpaceAfter=No
@@ -1052,7 +1052,7 @@
 8	ֆիխուսիուս	ֆիխուսիուս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	7	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	14	punct	_	_
 10	եւ	եւ	CCONJ	_	_	14	cc	_	_
-11	ինքս	ինք	PRON	_	Case=Nom|Deixis[psor]=Prox|Number=Sing|PronType=Emp	14	nsubj	_	_
+11	ինքս	ինք	PRON	_	Case=Nom|Deixis[psor]=Prox|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 12	այլ	այլ	ADV	_	Degree=Cmp	13	advmod	_	_
 13	փոքր	փոքր	ADJ	_	Degree=Pos	2	conj	_	_
 14	լինի	լինիլ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No

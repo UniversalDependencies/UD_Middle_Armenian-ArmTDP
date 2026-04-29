@@ -11,6 +11,7 @@ A Universal Dependencies treebank for Middle Armenian developed for UD originall
 
 This treebank was supported by the Higher Education and Science Committee of MESCS RA (Research project № 27TARGET-6B173).
 
+
 ## References
 
 This treebank can also be referenced:
@@ -25,6 +26,22 @@ This treebank can also be referenced:
   year={2026},
 }
 ```
+
+## Format
+
+UD_Middle_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependencies.org/format.html) format with the following specifics:
+* Sentence-level comments:
+  * Document titles are present as `# doc_title = Դատաստանագիրք.
+  * Document boundaries are present as `# newdoc id = legal/medical-xxxx`.
+  * Sentence-level paragraph boundaries are present as `# newpar id = newdoc-xxxx`.
+  * Sentence boundaries are present as `# sent_id = newdoc-newparxxxx`.
+* XPOSTAG column is currently unused.
+* No enhanced dependencies or empty nodes present in DEPS column.
+* MISC column:
+  * `SpaceAfter=No` markers are present.
+* Document, paragraph, sentence, and token ids are 4-character base-32 numbers. They survive treebank updates.
+
+
 
 # Changelog
 

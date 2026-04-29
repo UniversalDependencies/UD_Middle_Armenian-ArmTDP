@@ -485,7 +485,7 @@
 19-20	յապաշխարութիւն	_	_	_	_	_	_	_	_
 19	յ	ի	ADP	_	AdpType=Prep	20	case	_	_
 20	ապաշխարութիւն	ապաշխարութիւն	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Ind|Number=Coll	21	obl	_	_
-21	հասցնէ	հասցնել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Caus	16	conj	_	SpaceAfter=No
+21	հասցնէ	հասցնել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Cau	16	conj	_	SpaceAfter=No
 22	։	։	PUNCT	_	_	12	punct	_	_
 
 # sent_id = legal-00AA-00010IDO
@@ -611,7 +611,7 @@
 2	յերբ	յերբ	ADV	_	Style=Var	3	advmod	_	_
 3	տեսնուս	տեսնուլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	_
 4-5	զխայթածն	_	_	_	_	_	_	_	_
-4	զ	զ	ADP	_	AdpType=Prep	5	case	_	SpaceAfter=No
+4	զ	զ	ADP	_	AdpType=Prep	5	case	_	_
 5	խայթածն	խայթած	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	3	obj	_	_
 6	լինի	լինիլ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	12	cop	_	_
 7	Բ	Բ.	NUM	_	NumForm=Armenian|NumType=Card	12	nummod	_	SpaceAfter=No
@@ -695,8 +695,8 @@
 27	կարմիր	կարմիր	ADJ	_	Degree=Pos	5	conj	_	_
 28	եւ	եւ	CCONJ	_	_	29	cc	_	_
 29	մքգոյն	մքգոյն	ADJ	_	Degree=Pos	27	conj	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	14	punct	_	_
-31	եւ	եւ	CCONJ	_	_	14	cc	_	_
+30	,	,	PUNCT	_	_	32	punct	_	_
+31	եւ	եւ	CCONJ	_	_	32	cc	_	_
 32	խաղաւարտէ	խաղաւարտել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	_
 33	որպէս	որպէս	ADP	_	AdpType=Prep	35	case	_	_
 34	կրակի	կրակ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	35	nmod:poss	_	_

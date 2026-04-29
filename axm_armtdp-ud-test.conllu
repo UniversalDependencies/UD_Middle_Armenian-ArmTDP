@@ -381,8 +381,8 @@
 10	զ	զ	ADP	_	AdpType=Prep	11	case	_	_
 11	այս	այս	PRON	_	Case=Nom|Deixis=Prox|Number=Sing|PronType=Dem	14	obj	_	_
 12	այն	այն	DET	_	Deixis=Remt|PronType=Dem	13	det	_	_
-13	տաճկին	տաճկ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	14	iobj	_	_
-14	տան	տալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	տաճկին	տաճկ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	14	obl	_	_
+14	տան	տալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
 15	գին	գին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	14	compound:lvc	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
 17	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	21	nsubj	_	_
@@ -416,14 +416,14 @@
 18	ու	ու	CCONJ	_	_	20	cc	_	_
 19	զինչ	զինչ	PRON	_	PronType=Ind	20	obj	_	_
 20	ուննայ	ուննալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
-21	ու	ու	CCONJ	_	_	22	cc	_	_
+21	ու	ու	CCONJ	_	_	24	cc	_	_
 22	ի	ի	ADP	_	AdpType=Prep	23	case	_	_
 23	գինն	գին	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Sing	24	obl	_	_
 24	տան	տալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	զարդ	զարդ	ADP	_	AdpType=Prep	28	case	_	_
 27	ի	ի	ADP	_	AdpType=Prep	28	case	_	_
-28	կնկնէն	կնիկ	NOUN	_	Animacy=Hum|Case=Abl|Definite=Def|Number=Sing|Style=Var	11	obl	_	_
+28	կնկնէն	կնիկ	NOUN	_	Animacy=Hum|Case=Abl|Definite=Def|Number=Sing|Style=Var	19	nmod:npmod	_	_
 29	ու	ու	CCONJ	_	_	32	cc	_	_
 30	ի	ի	ADP	_	AdpType=Prep	32	case	_	_
 31-32	յորդեցն	_	_	_	_	_	_	_	SpaceAfter=No
@@ -454,7 +454,7 @@
 18	.	.	PUNCT	_	_	21	punct	_	_
 19	եւ	եւ	CCONJ	_	_	21	cc	_	_
 20	դարպասն	դարպաս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	21	nsubj	_	_
-21	կիսէ	կիսել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+21	կիսէ	կիսել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	_
 22	ընդ	ընդ	ADP	_	AdpType=Prep	25	case	_	_
 23	սպանած	սպաննել	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Tran|Typo=Yes|VerbForm=Part|Voice=Act	24	acl	_	_
 24	թուրքին	թուրք	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	25	nmod:poss	_	_
@@ -485,7 +485,7 @@
 19-20	յապաշխարութիւն	_	_	_	_	_	_	_	_
 19	յ	ի	ADP	_	AdpType=Prep	20	case	_	_
 20	ապաշխարութիւն	ապաշխարութիւն	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Ind|Number=Coll	21	obl	_	_
-21	հասցնէ	հասցնել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	SpaceAfter=No
+21	հասցնէ	հասցնել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Caus	16	conj	_	SpaceAfter=No
 22	։	։	PUNCT	_	_	12	punct	_	_
 
 # sent_id = legal-00AA-00010IDO
@@ -509,7 +509,7 @@
 15	ազգին	ազգ	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	14	iobj	_	SpaceAfter=No
 16	՝	՝	PUNCT	_	_	18	punct	_	_
 17	եւ	եւ	CCONJ	_	_	18	cc	_	_
-18	տուգանք	տուգանք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	12	conj	_	SpaceAfter=No
+18	տուգանք	տուգանք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	14	conj	_	SpaceAfter=No
 19	։	։	PUNCT	_	_	9	punct	_	_
 
 # sent_id = legal-00AA-00010IDP
@@ -538,7 +538,7 @@
 20	յ	ի	ADP	_	AdpType=Prep	22	case	_	_
 21	այլ	այլ	DET	_	PronType=Ind	22	det	_	_
 22	դատաւորքն	դատաւոր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	23	iobj	_	_
-23	թողու	թողուլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
+23	թողու	թողուլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
 24	՝	՝	PUNCT	_	_	27	punct	_	_
 25	որ	որ	SCONJ	_	_	27	mark	_	_
 26	նոքա	նոքա	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	_

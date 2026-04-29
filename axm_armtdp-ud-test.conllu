@@ -665,7 +665,7 @@
 55	:	:	PUNCT	_	_	26	punct	_	_
 
 # sent_id = medical-00AB-00010IEC
-# text = Եւ ի խայթածէն ջուր իջանէ դեղին ձիթի նման, եւ հետ այնոր այլազգ ջուր ելնէ եւ ուռենայ. եւ ուռիցն ունի այրեաց, եւ է ինքն կարմիր եւ մքգոյն, եւ խաղաւարտէ որպէս կրակի այրեած, եւ փոխի գոյնն մարմնոյն ազգեւազգ, եւ քուն չկարէ լինել ի սրտին շարժելոյն եւ դարցնելոյն, եւ թալնայ, եւ դողայ խիստ, եւ պաղ քիրտն ունենայ:
+# text = Եւ ի խայթածէն ջուր իջանէ դեղին ձիթի նման, եւ հետ այնոր այլազգ ջուր ելնէ եւ ուռենայ. եւ ուռիցն ունի այրեաց, եւ է ինքն կարմիր եւ մքգոյն, եւ խաղաւարտէ որպէս կրակի այրեած, եւ փոխի գոյնն մարմնոյն ազգեւազգ. եւ քուն չկարէ լինել ի սրտին շարժելոյն եւ դարցնելոյն, եւ թալնայ, եւ դողայ խիստ, եւ պաղ քիրտն ունենայ:
 1	Եւ	եւ	CCONJ	_	_	5	cc	_	_
 2	ի	ի	ADP	_	AdpType=Prep	3	case	_	_
 3	խայթածէն	խայթած	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Def|Number=Sing	5	obl	_	_
@@ -676,7 +676,7 @@
 8	նման	նման	ADP	_	AdpType=Post	7	case	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
 10	եւ	եւ	CCONJ	_	_	15	cc	_	_
-11	հետ	հետ	ADP	_	AdpType=Prep	15	case	_	_
+11	հետ	հետ	ADP	_	AdpType=Prep	12	case	_	_
 12	այնոր	այն	PRON	_	Case=Dat|Deixis=Remt|Number=Sing|PronType=Dem	15	obl	_	_
 13	այլազգ	այլազգ	ADJ	_	_	14	amod	_	_
 14	ջուր	ջուր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	15	nsubj	_	_
@@ -686,33 +686,33 @@
 18	.	.	PUNCT	_	_	21	punct	_	_
 19	եւ	եւ	CCONJ	_	_	21	cc	_	_
 20	ուռիցն	ուռից	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing|Style=Var	21	nsubj	_	_
-21	ունի	ունիմ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+21	ունի	ունիմ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
 22	այրեաց	այրեաց|այրեց	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Coll	21	obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	եւ	եւ	CCONJ	_	_	27	cc	_	_
 25	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	cop	_	_
 26	ինքն	ինք	PRON	_	Case=Nom|Deixis[psor]=Remt|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
-27	կարմիր	կարմիր	ADJ	_	Degree=Pos	5	conj	_	_
+27	կարմիր	կարմիր	ADJ	_	Degree=Pos	21	conj	_	_
 28	եւ	եւ	CCONJ	_	_	29	cc	_	_
 29	մքգոյն	մքգոյն	ADJ	_	Degree=Pos	27	conj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	եւ	եւ	CCONJ	_	_	32	cc	_	_
-32	խաղաւարտէ	խաղաւարտել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	_
+32	խաղաւարտէ	խաղաւարտել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	21	conj	_	_
 33	որպէս	որպէս	ADP	_	AdpType=Prep	35	case	_	_
 34	կրակի	կրակ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	35	nmod:poss	_	_
 35	այրեած	այրեած	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	32	obl	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	38	punct	_	_
 37	եւ	եւ	CCONJ	_	_	38	cc	_	_
-38	փոխի	փոխել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	5	nmod:poss	_	_
+38	փոխի	փոխել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	21	nmod:poss	_	_
 39	գոյնն	գոյն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	38	obj	_	_
 40	մարմնոյն	մարմին	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	39	nmod:poss	_	_
 41	ազգեւազգ	ազգեւազգ	ADV	_	_	38	advmod	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	27	punct	_	_
-43	եւ	եւ	CCONJ	_	_	27	cc	_	_
+42	.	.	PUNCT	_	_	46	punct	_	_
+43	եւ	եւ	CCONJ	_	_	46	cc	_	_
 44	քուն	քուն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	47	compound:lvc	_	_
 45-46	չկարէ	_	_	_	_	_	_	_	_
 45	չ	չի	PART	_	Polarity=Neg	46	advmod	_	_
-46	կարէ	կարել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+46	կարէ	կարել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
 47	լինել	լինել	VERB	_	Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	46	xcomp	_	_
 48	ի	ի	ADP	_	AdpType=Prep	50	case	_	_
 49	սրտին	սիրտ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	50	nmod:poss	_	_
@@ -721,16 +721,16 @@
 52	դարցնելոյն	դարցնել	VERB	_	Case=Dat|Definite=Def|Polarity=Pos|Style=Var|Subcat=Tran|VerbForm=Inf|Voice=Act	50	conj	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	55	punct	_	_
 54	եւ	եւ	CCONJ	_	_	55	cc	_	_
-55	թալնայ	թալնալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	SpaceAfter=No
+55	թալնայ	թալնալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	46	conj	_	SpaceAfter=No
 56	,	,	PUNCT	_	_	58	punct	_	_
 57	եւ	եւ	CCONJ	_	_	58	cc	_	_
-58	դողայ	դողալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	_
+58	դողայ	դողալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	46	conj	_	_
 59	խիստ	խիստ	ADV	_	_	58	advmod	_	SpaceAfter=No
 60	,	,	PUNCT	_	_	64	punct	_	_
 61	եւ	եւ	CCONJ	_	_	64	cc	_	_
 62	պաղ	պաղ	ADJ	_	Degree=Pos	63	amod	_	_
 63	քիրտն	քիրտն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing|Style=Arch	64	obj	_	_
-64	ունենայ	ունենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+64	ունենայ	ունենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	46	conj	_	SpaceAfter=No
 65	:	:	PUNCT	_	_	5	punct	_	_
 
 # sent_id = medical-00AB-00010IED
@@ -1242,3 +1242,4 @@
 48	)	)	PUNCT	_	_	47	punct	_	_
 49	մեռնի	մեռնիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	SpaceAfter=No
 50	:	:	PUNCT	_	_	2	punct	_	SpaceAfter=No
+

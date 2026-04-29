@@ -24,7 +24,7 @@
 19	։	։	PUNCT	_	_	2	punct	_	_
 
 # sent_id = legal-00AA-00010IDC
-# text = Քրիստոսի դատաստանին աւրինակովն պարտի թագաւորն զիր իրաւունքն տանել ըղորդ, անաչառութեամբ եւ առանց կաշառոյ եւ առանց ծուլութեան. եւ զամենայն զրկելոցն եւ զգանկտվորացն եւ իրաւունք այնէ։
+# text = Քրիստոսի դատաստանին աւրինակովն պարտի թագաւորն զիր իրաւունքն տանել ըղորդ, անաչառութեամբ եւ առանց կաշառոյ եւ առանց ծուլութեան. եւ զամենայն զրկելոցն եւ զգանկտվորացն դարպաս բռնէ եւ իրաւունք այնէ։
 1	Քրիստոսի	Քրիստոս	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Sing	2	nmod:poss	_	_
 2	դատաստանին	դատաստան	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	3	nmod:poss	_	_
 3	աւրինակովն	աւրինակ	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Def|Number=Sing|Style=Var	4	obl	_	_
@@ -457,7 +457,7 @@
 21	կիսէ	կիսել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
 22	ընդ	ընդ	ADP	_	AdpType=Prep	25	obl	_	_
 23	սպանած	սպաննել	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Tran|Typo=Yes|VerbForm=Part|Voice=Act	24	acl	_	_
-24	թուրքին	թուրք	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	24	nmod:poss	_	_
+24	թուրքին	թուրք	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	25	nmod:poss	_	_
 25	ազգն	ազգ	NOUN	_	Animacy=Hum|Case=Acc|Definite=Def|Number=Sing	21	obl	_	SpaceAfter=No
 26	։	։	PUNCT	_	_	13	punct	_	_
 
@@ -536,7 +536,7 @@
 19	ի	ի	ADP	_	AdpType=Prep	22	case	_	_
 20-21	յայլ	_	_	_	_	_	_	_	_
 20	յ	ի	ADP	_	AdpType=Prep	22	case	_	SpaceAfter=No
-21	այլ	այլ	DET	_	PronType=Ind	det	22	_	_
+21	այլ	այլ	DET	_	PronType=Ind	22	det	_	_
 22	դատաւորքն	դատաւոր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	21	iobj	_	_
 23	թողու	թողուլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
 24	՝	՝	PUNCT	_	_	27	punct	_	_
@@ -749,7 +749,7 @@
 12	ի	ի	ADP	_	AdpType=Prep	15	case	_	_
 13-14	յայլ	_	_	_	_	_	_	_	_
 13	յ	ի	ADP	_	AdpType=Prep	15	case	_	SpaceAfter=No
-14	այլ	այլ	DET	_	PronType=Ind	det	15	_	_
+14	այլ	այլ	DET	_	PronType=Ind	15	det	_	_
 15	անդամսն	անդամ	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Plur	11	obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	18	nsubj	_	_
@@ -817,7 +817,7 @@
 44	ի	ի	ADP	_	AdpType=Prep	47	case	_	_
 45-46	յայն	_	_	_	_	_	_	_	_
 45	յ	ի	ADP	_	AdpType=Prep	47	case	_	SpaceAfter=No
-46	այն	այն	DET	_	Deixis=Remt|PronType=Dem	det	47	_	_
+46	այն	այն	DET	_	Deixis=Remt|PronType=Dem	47	det	_	_
 47	վայրսն	վայր	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Plur	48	obl	_	_
 48	շրջի	շրջիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	51	advcl	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	51	punct	_	_
@@ -907,7 +907,7 @@
 25	նման	նման	ADP	_	AdpType=Post	24	case	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	29	punct	_	_
 27	եւ	եւ	CCONJ	_	_	29	cc	_	_
-28	ստամոքն	ստամոք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	29	nsubj	_	_	
+28	ստամոքն	ստամոք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	29	nsubj	_	_
 29	ցաւէ	ցաւել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	SpaceAfter=No
 30	:	:	PUNCT	_	_	5	punct	_	_
 
@@ -928,7 +928,7 @@
 12	.	.	PUNCT	_	_	16	punct	_	_
 13	երբ	երբ	ADV	_	PronType=Rel	17	advmod	_	_
 14	այս	այս	DET	_	Deixis=Prox|PronType=Dem	15	det	_	_
-15	ազգ	ազգ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	15	nmod	_	_
+15	ազգ	ազգ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	16	nmod	_	_
 16	օձս	օձ	NOUN	_	Animacy=Nhum|Case=Nom|Deixis[psor]=Prox|Number=Sing	17	nsubj	_	_
 17	խայթէ	խայթել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	23	advcl:relcl	_	_
 18-19	զմարդն	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1052,7 +1052,7 @@
 8	ֆիխուսիուս	ֆիխուսիուս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	7	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	14	punct	_	_
 10	եւ	եւ	CCONJ	_	_	14	cc	_	_
-11	ինքս	ինք	PRON	_	Case=Nom|Deixis[psor]=Prox|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+11	ինքս	ինք	PRON	_	Case=Nom|Deixis[psor]=Prox|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	այլ	այլ	ADV	_	Degree=Cmp	13	advmod	_	_
 13	փոքր	փոքր	ADJ	_	Degree=Pos	2	conj	_	_
 14	լինի	լինիլ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
@@ -1089,13 +1089,13 @@
 43	որպէս	որպէս	ADP	_	AdpType=Prep	44	case	_	_
 44	արծուիք	արծուիք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Ptan	37	obl	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	26	punct	_	_
-46	մարմինն	մարմին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	26	nsubj	_	_
+46	մարմինն	մարմին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	48	nsubj	_	_
 47	լինի	լինիլ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	48	cop	_	_
 48	թոյլ	թոյլ	ADJ	_	_	2	conj	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	51	punct	_	_
 50	եւ	եւ	CCONJ	_	_	51	cc	_	_
 51	կտրտի	կտրտիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
-52	միսն	միս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	30	nsubj	_	SpaceAfter=No
+52	միսն	միս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	51	nsubj	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	55	punct	_	_
 54	եւ	եւ	CCONJ	_	_	55	cc	_	_
 55	ընկնի	ընկնիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_

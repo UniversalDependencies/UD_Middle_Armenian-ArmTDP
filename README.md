@@ -9,12 +9,22 @@ A Universal Dependencies treebank for Middle Armenian developed for UD originall
 
 # Acknowledgments
 
-...
+This treebank was supported by the Higher Education and Science Committee of MESCS RA (Research project № 27TARGET-6B173).
 
 ## References
 
-* (citation)
+This treebank can also be referenced:
 
+```tex
+@misc{UD_Middle_Armenian-ArmTDP,
+  title={{UD_Middle_Armenian-ArmTDP}: Universal Dependencies for Middle Armenian},
+  url={https://github.com/UniversalDependencies/UD_Middle_Armenian-ArmTDP},
+  author={
+    Anna S. Danielyan and Marat M. Yavrumyan
+    },
+  year={2026},
+}
+```
 
 # Changelog
 

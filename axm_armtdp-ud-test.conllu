@@ -69,8 +69,8 @@
 4	ուր	ուր	ADV	_	PronType=Rel	6	advmod	_	_
 5	թագաւորն	թագաւոր	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	6	nsubj	_	_
 6	ուրդի	ուրդիլ	VERB	_	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	3	acl:relcl	_	SpaceAfter=No
-7	՝	՝	PUNCT	_	_	11	punct	_	_
-8	նա	նա	PART	_	_	11	discourse	_	_
+7	՝	՝	PUNCT	_	_	15	punct	_	_
+8	նա	նա	SCONJ	_	_	15	mark	_	_
 9	երբ	երբ	ADV	_	PronType=Rel	11	advmod	_	_
 10	սուրն	սուր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	11	nsubj	_	_
 11	վերնա	վերնալ	VERB	_	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	15	advcl	_	SpaceAfter=No
@@ -85,7 +85,7 @@
 20	քաւէլ	քաւէլ	SCONJ	_	ExtPos=SCONJ	24	mark	_	_
 21	թէ	թէ	PART	_	_	20	fixed	_	_
 22	հայնց	հայնց	DET	_	PronType=Dem	23	det	_	_
-23	մարդիք	մարդ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Plur	24	xcomp	_	_
+23	մարդիք	մարդ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Plur	24	nsubj	_	_
 24	լինին	լինիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	15	advcl	_	_
 25-26	յայլազգեացն	_	_	_	_	_	_	_	SpaceAfter=No
 25	յ	ի	ADP	_	AdpType=Prep	26	case	_	_
@@ -101,7 +101,7 @@
 
 # sent_id = legal-00AA-00010IDE
 # text = Եւ թէ քաղաք լինի սղարել եւ ի յառ ածել, նա երեք հետ պատեհ է որ ձենել տայ՝ թէ եկէք ի հնազանդութիւն. թէ գան, նա զամէնն հնազանդութեամբ բերէ եւ չտայ սպաննել. եւ թէ չգան, նա զմեղապարտսն մէն տայ սպաննել. եւ զայնոք որ ի մեղայն գան եւ մեղացուք լինին, նա աւերէ զիրենց զաւդվածքն եւ չսպաննէ. եւ զպտղաբեր ծառք երկրին չտայ կտրել։
-1	Եւ	եւ	CCONJ	_	_	5	cc	_	_
+1	Եւ	եւ	CCONJ	_	_	15	cc	_	_
 2	թէ	թէ	SCONJ	_	_	5	mark	_	_
 3	քաղաք	քաղաք	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Ind|Number=Sing	5	obj	_	_
 4	լինի	լինիլ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -125,8 +125,8 @@
 21	թէ	թէ	SCONJ	_	_	22	mark	_	_
 22	եկէք	գալ	VERB	_	Aspect=Prosp|Mood=Imp|Number=Plur|Person=2|Subcat=Intr|VerbForm=Fin|Voice=Mid	18	ccomp	_	_
 23	ի	ի	ADP	_	AdpType=Prep	24	case	_	_
-24	հնազանդութիւն	հնազանդութիւն	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Ind|Number=Coll	21	obl	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	27	punct	_	_
+24	հնազանդութիւն	հնազանդութիւն	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Ind|Number=Coll	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	33	punct	_	_
 26	թէ	թէ	SCONJ	_	_	27	mark	_	_
 27	գան	գալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	33	advcl	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	33	punct	_	_
@@ -135,12 +135,12 @@
 30	զ	զ	ADP	_	AdpType=Prep	31	case	_	_
 31	ամէնն	ամէն	PRON	_	Case=Acc|PronType=Tot	33	obj	_	_
 32	հնազանդութեամբ	հնազանդութիւն	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Coll	33	obl	_	_
-33	բերէ	բերել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+33	բերէ	բերել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
 34	եւ	եւ	CCONJ	_	_	36	cc	_	_
 35	չտայ	տալ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Cau	36	aux:caus	_	_
 36	սպաննել	սպաննել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	33	conj	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	40	punct	_	_
-38	եւ	եւ	CCONJ	_	_	40	cc	_	_
+37	.	.	PUNCT	_	_	47	punct	_	_
+38	եւ	եւ	CCONJ	_	_	47	cc	_	_
 39	թէ	թէ	SCONJ	_	_	40	mark	_	_
 40	չգան	գալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Neg|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	47	advcl	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	47	punct	_	_
@@ -149,8 +149,8 @@
 43	զ	զ	ADP	_	AdpType=Prep	44	case	_	_
 44	մեղապարտսն	մեղապարտ	NOUN	_	Animacy=Hum|Case=Acc|Definite=Def|Number=Plur	47	obj	_	_
 45	մէն	մէն	ADV	_	_	44	advmod:emph	_	_
-46	տայ	տալ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Cau	36	aux:caus	_	_
-47	սպաննել	սպաննել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	18	conj	_	SpaceAfter=No
+46	տայ	տալ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Cau	47	aux:caus	_	_
+47	սպաննել	սպաննել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	33	conj	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	61	punct	_	_
 49	եւ	եւ	CCONJ	_	_	61	cc	_	_
 50-51	զայնոք	_	_	_	_	_	_	_	_
@@ -165,7 +165,7 @@
 58	լինին	լինիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	55	conj	_	SpaceAfter=No
 59	,	,	PUNCT	_	_	61	punct	_	_
 60	նա	նա	SCONJ	_	_	61	mark	_	_
-61	աւերէ	աւերել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+61	աւերէ	աւերել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
 62-63	զիրենց	_	_	_	_	_	_	_	_
 62	զ	զ	ADP	_	AdpType=Prep	64	case	_	_
 63	իրենց	իր	DET	_	Case=Acc|Number=Plur|Person=3|PronType=Poss	64	det:poss	_	_
@@ -180,7 +180,7 @@
 71	ծառք	ծառ	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Ind|Number=Plur	74	obj	_	_
 72	երկրին	երկիր	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	71	nmod:poss	_	_
 73	չտայ	տալ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Cau	74	aux:caus	_	_
-74	կտրել	կտրել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	18	conj	_	SpaceAfter=No
+74	կտրել	կտրել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	61	conj	_	SpaceAfter=No
 75	։	։	PUNCT	_	_	15	punct	_	_
 
 # sent_id = legal-00AA-00010IDF
@@ -1224,7 +1224,7 @@
 31	փուք	փուք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	27	nsubj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	եւ	եւ	CCONJ	_	_	34	cc	_	_
-34	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
+34	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
 35	ի	ի	ADP	_	AdpType=Prep	37	case	_	_
 36-37	յերանացն	_	_	_	_	_	_	_	_
 36	յ	ի	ADP	_	AdpType=Prep	37	case	_	_

@@ -91,7 +91,7 @@
 25	յ	ի	ADP	_	AdpType=Prep	26	case	_	SpaceAfter=No
 26	այլազգեացն	այլազգի	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Plur	24	obl	_	_
 27	,	,	PUNCT	_	_	33	punct	_	_
-28	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	33	nsubj	_	_
+28	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	33	nsubj	_	_
 29	այն	այն	DET	_	Deixis=Remt|PronType=Dem	30	det	_	_
 30	շմորոյն	շմոր	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	31	nmod:poss	_	_
 31	պատճառք	պատճառ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Plur	33	xcomp	_	_
@@ -156,7 +156,7 @@
 50-51	զայնոք	_	_	_	_	_	_	_	_
 50	զ	զ	ADP	_	AdpType=Prep	51	case	_	SpaceAfter=No
 51	այնոք	այնոք	PRON	_	Case=Acc|Deixis=Remt|Number=Plur|PronType=Dem	61	obj	_	_
-52	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	55	nsubj	_	_
+52	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	55	nsubj	_	_
 53	ի	ի	ADP	_	AdpType=Prep	54	case	_	_
 54	մեղայն	մեղայ	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Coll	55	compound:lvc	_	_
 55	գան	գալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	51	acl:relcl	_	_
@@ -385,7 +385,7 @@
 14	տան	տալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
 15	գին	գին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	14	compound:lvc	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
-17	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	21	nsubj	_	_
+17	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	21	nsubj	_	_
 18	ի	ի	ADP	_	AdpType=Prep	20	case	_	_
 19	թագաւորին	թագաւոր	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	20	nmod:poss	_	_
 20	երկրին	երկիր	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	21	obl	_	_
@@ -478,7 +478,7 @@
 12	թագավորին	թագավոր	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	0	root	_	_
 13	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
-15	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	16	nsubj	_	_
+15	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	16	nsubj	_	_
 16	խրատէ	խրատել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
 17	եւ	եւ	CCONJ	_	_	21	cc	_	_
 18	ի	ի	ADP	_	AdpType=Prep	20	case	_	_
@@ -621,7 +621,7 @@
 11	)	)	PUNCT	_	_	10	punct	_	_
 12	ծակ	ծակ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	5	acl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	22	punct	_	_
-14	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	22	nsubj	_	_
+14	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	22	nsubj	_	_
 15	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	22	cop	_	_
 16	Բ	Բ.	NUM	_	NumForm=Armenian|NumType=Card	21	nummod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	16	punct	_	_
@@ -635,7 +635,7 @@
 25	ստոյք	ստոյք	ADV	_	_	26	advmod	_	_
 26	գիտացիր	գիտել	VERB	_	Aspect=Prosp|Mood=Imp|Number=Sing|Person=2|Style=Arch|Subcat=Tran|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	35	punct	_	_
-28	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	35	nsubj	_	_
+28	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	35	nsubj	_	_
 29	Բ	Բ.	NUM	_	NumForm=Armenian|NumType=Card	34	nummod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	29	punct	_	_
 31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
@@ -752,7 +752,7 @@
 14	այլ	այլ	DET	_	PronType=Ind	det	15	_	_
 15	անդամսն	անդամ	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Plur	11	obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	18	nsubj	_	_
+17	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	18	nsubj	_	_
 18	ի	ի	ADP	_	AdpType=Prep|ExtPos=ADJ	15	acl	_	_
 19	մօտ	մօտ	ADJ	_	_	18	fixed	_	_
 20	են	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	cop	_	_
@@ -777,7 +777,7 @@
 4	այլ	այլ	DET	_	PronType=Ind	2	det	_	_
 5	կայ	կամ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
-7	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	8	nsubj	_	_
+7	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	_
 8	ասի	ասիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
 9	ատօրօս	ատօրօս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	8	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
@@ -858,7 +858,7 @@
 24	զ	զ	ADP	_	AdpType=Prep	26	case	_	SpaceAfter=No
 25	այս	այս	DET	_	Deixis=Prox|PronType=Dem	26	det	_	_
 26	օձի	օձ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	27	nmod:poss	_	SpaceAfter=No
-27	ս	ն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing|Poss=Yes	22	obl	_	SpaceAfter=No
+27	ս	նն	NOUN	_	Animacy=Nhum|Case=Nom|Deixis[psor]=Prox|Number=Sing	22	obl	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	36	punct	_	_
 29	եւ	եւ	CCONJ	_	_	36	cc	_	_
 30-31	զիւր	_	_	_	_	_	_	_	_
@@ -922,7 +922,7 @@
 6	յ	ի	ADP	_	AdpType=Prep	7	case	_	SpaceAfter=No
 7	օձիցն	օձ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	4	obl	_	_
 8	,	,	PUNCT	_	_	10	punct	_	_
-9	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	8	obj	_	_
+9	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	8	obj	_	_
 10	անուանին	անուանիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl	_	_
 11	ծարաւած	ծարաւած	ADJ	_	_	10	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	16	punct	_	_
@@ -943,7 +943,7 @@
 26	որ	որ	SCONJ	_	_	31	mark	_	_
 27	այլազգ	այլազգ	ADJ	_	_	29	amod	_	_
 28	օձոյ	օձ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	27	nmod:poss	_	SpaceAfter=No
-29	նն	ն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing|Poss=Yes	31	nsubj	_	SpaceAfter=No
+29	նն	նն	NOUN	_	Animacy=Nhum|Case=Nom|Deixis[psor]=Remt|Number=Sing	31	nsubj	_	_
 30-31	չցաւէ	_	_	_	_	_	_	_	SpaceAfter=No
 30	չ	չի	PART	_	Polarity=Neg	31	advmod	_	SpaceAfter=No
 31	ցաւէ	չցաւ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	23	advcl	_	_
@@ -973,7 +973,7 @@
 54	յոլով	ոլով	ADJ	_	Degree=Pos	55	amod	_	_
 55	կրակէն	կրակ	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Def|Number=Sing	51	conj	_	SpaceAfter=No
 56	,	,	PUNCT	_	_	60	punct	_	_
-57	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	60	nsubj	_	_
+57	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	60	nsubj	_	_
 58	ի	ի	ADP	_	AdpType=Prep	59	case	_	_
 59	թոյնքն	թոյն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	60	obl	_	_
 60	կայր	կամ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	51	acl:relcl	_	SpaceAfter=No
@@ -1146,7 +1146,7 @@
 34	,	,	PUNCT	_	_	38	punct	_	_
 35	եւ	եւ	CCONJ	_	_	38	cc	_	_
 36	ընդ	ընդ	ADP	_	AdpType=Prep|ExtPos=ADV	38	advmod	_	_
-37	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	36	fixed	_	_
+37	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	36	fixed	_	_
 38	երթայ	երթալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	41	advcl	_	SpaceAfter=No
 39	՝	՝	PUNCT	_	_	41	punct	_	_
 40	խոտն	խոտն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	41	nsubj	_	_

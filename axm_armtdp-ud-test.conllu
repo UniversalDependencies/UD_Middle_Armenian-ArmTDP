@@ -691,7 +691,7 @@
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	եւ	եւ	CCONJ	_	_	27	cc	_	_
 25	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	27	cop	_	_
-26	ինքն	ինք	PRON	_	Case=Nom|Number=Sing|Deixis[psor]=Remt|Person=3|PronType=Prs	27	nsubj	_	_
+26	ինքն	ինք	PRON	_	Case=Nom|Deixis[psor]=Remt|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 27	կարմիր	կարմիր	ADJ	_	Degree=Pos	5	conj	_	_
 28	եւ	եւ	CCONJ	_	_	29	cc	_	_
 29	մքգոյն	մքգոյն	ADJ	_	Degree=Pos	27	conj	_	SpaceAfter=No
@@ -709,7 +709,7 @@
 41	ազգեւազգ	ազգեւազգ	ADV	_	_	38	advmod	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	27	punct	_	_
 43	եւ	եւ	CCONJ	_	_	27	cc	_	_
-44	քուն	քուն	PRON	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	47	compound:lvc	_	_
+44	քուն	քուն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	47	compound:lvc	_	_
 45-46	չկարէ	_	_	_	_	_	_	_	_
 45	չ	չի	PART	_	Polarity=Neg	46	advmod	_	SpaceAfter=No
 46	կարէ	կարել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
@@ -1080,7 +1080,7 @@
 34	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	32	cop	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	եւ	եւ	CCONJ	_	_	37	cc	_	_
-37	ուռենայ	ուռենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm|VerbForm=Fin|Voice=Mid	2	conj	_	_
+37	ուռենայ	ուռենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
 38	խայթածն	խայթած	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	37	nsubj	_	_
 39	եւ	եւ	CCONJ	_	_	41	cc	_	_
 40	այլ	այլ	DET	_	PronType=Ind	41	det	_	_
@@ -1153,7 +1153,7 @@
 41	չորնայ	չորնալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	49	punct	_	_
 43	եւ	եւ	CCONJ	_	_	49	cc	_	_
-44	իր	իր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp	45	det:poss	_	_
+44	իր	իր	DET	_	Case=Nom|Number=Sing|Person=3|PronType=Poss	45	det:poss	_	_
 45	խայթածին	խայթած	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	46	nmod:poss	_	_
 46	հետն	հետ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	49	nsubj	_	_
 47	զերթ	զերթ	ADP	_	AdpType=Prep|Style=Var	49	case	_	_

@@ -436,7 +436,7 @@
 1	Եւ	եւ	CCONJ	_	_	13	cc	_	_
 2	թէ	թէ	SCONJ	_	_	6	mark	_	_
 3-4	յոչ	_	_	_	_	_	_	_	_
-3	յ	ի	ADP	_	AdpType=Prep	5	case	_	SpaceAfter=No
+3	յ	ի	ADP	_	AdpType=Prep	5	case	_	_
 4	ոչ	ոչ	PART	_	Polarity=Neg	5	advmod:emph	_	_
 5	կամայ	կամ	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing|Style=Rare	6	obl	_	_
 6	լինի	լինիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	13	advcl	_	_
@@ -748,7 +748,7 @@
 11	հասնի	հասնիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
 12	ի	ի	ADP	_	AdpType=Prep	15	case	_	_
 13-14	յայլ	_	_	_	_	_	_	_	_
-13	յ	ի	ADP	_	AdpType=Prep	15	case	_	SpaceAfter=No
+13	յ	ի	ADP	_	AdpType=Prep	15	case	_	_
 14	այլ	այլ	DET	_	PronType=Ind	15	det	_	_
 15	անդամսն	անդամ	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Plur	11	obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
@@ -893,12 +893,12 @@
 12	խաղաւարտէ	խաղաւարտել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	_
 13	աստ	աստ	ADV	_	Deixis=Prox|PronType=Dem	12	advmod	_	_
 14	եւ	եւ	CCONJ	_	_	15	cc	_	_
-15	անդ	անդ	ADV	_	Deixis=Med|PronType=Dem	13	conj	_	SpaceAfter=No
+15	անդ	անդ	ADV	_	Deixis=Remt|PronType=Dem	13	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	եւ	եւ	CCONJ	_	_	18	cc	_	_
 18	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
 19-20	յիւրմէն	_	_	_	_	_	_	_	_
-19	յ	ի	ADP	_	AdpType=Prep	20	case	_	SpaceAfter=No
+19	յ	ի	ADP	_	AdpType=Prep	20	case	_	_
 20	իւրմէն	ինք	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs|Style=Arch	18	obl	_	_
 21	գիջութիւն	գիջութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	18	obj	_	_
 22	եւ	եւ	CCONJ	_	_	23	cc	_	_
@@ -919,10 +919,10 @@
 4	կայ	կամ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 5	ի	ի	ADP	_	AdpType=Prep	7	case	_	_
 6-7	յօձիցն	_	_	_	_	_	_	_	SpaceAfter=No
-6	յ	ի	ADP	_	AdpType=Prep	7	case	_	SpaceAfter=No
+6	յ	ի	ADP	_	AdpType=Prep	7	case	_	_
 7	օձիցն	օձ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	4	obl	_	_
 8	,	,	PUNCT	_	_	10	punct	_	_
-9	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	8	obj	_	_
+9	որ	որ	SCONJ	_	_	10	mark	_	_
 10	անուանին	անուանիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl	_	_
 11	ծարաւած	ծարաւած	ADJ	_	_	10	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	16	punct	_	_
@@ -932,7 +932,7 @@
 16	օձս	օձ	NOUN	_	Animacy=Nhum|Case=Nom|Deixis[psor]=Prox|Number=Sing	17	nsubj	_	_
 17	խայթէ	խայթել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	23	advcl:relcl	_	_
 18-19	զմարդն	_	_	_	_	_	_	_	SpaceAfter=No
-18	զ	զ	ADP	_	AdpType=Prep	19	case	_	SpaceAfter=No
+18	զ	զ	ADP	_	AdpType=Prep	19	case	_	_
 19	մարդն	մարդ	NOUN	_	Animacy=Hum|Case=Acc|Definite=Def|Number=Sing	17	obj	_	_
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	նայ	նայ	SCONJ	_	Style=Var	23	mark	_	_
@@ -945,7 +945,7 @@
 28	օձոյ	օձ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	27	nmod:poss	_	SpaceAfter=No
 29	նն	նն	NOUN	_	Animacy=Nhum|Case=Nom|Deixis[psor]=Remt|Number=Sing	31	nsubj	_	_
 30-31	չցաւէ	_	_	_	_	_	_	_	SpaceAfter=No
-30	չ	չի	PART	_	Polarity=Neg	31	advmod	_	SpaceAfter=No
+30	չ	չի	PART	_	Polarity=Neg	31	advmod	_	_
 31	ցաւէ	չցաւ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	23	advcl	_	_
 32	,	,	PUNCT	_	_	36	punct	_	_
 33	եւ	եւ	CCONJ	_	_	36	cc	_	_
@@ -962,7 +962,7 @@
 44	,	,	PUNCT	_	_	42	punct	_	_
 45	եւ	եւ	CCONJ	_	_	47	cc	_	_
 46-47	չկշտանայ	_	_	_	_	_	_	_	_
-46	չ	չի	PART	_	Polarity=Neg	47	advmod	_	SpaceAfter=No
+46	չ	չի	PART	_	Polarity=Neg	47	advmod	_	_
 47	կշտանայ	կշտանալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
 48	ջրով	ջուր	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	47	obl	_	_
 49	ի	ի	ADP	_	AdpType=Prep	51	case	_	_
@@ -981,7 +981,7 @@
 62	եւ	եւ	CCONJ	_	_	65	cc	_	_
 63	մարդ	մարդ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	65	nsubj	_	_
 64-65	չապրի	_	_	_	_	_	_	_	_
-64	չ	չի	PART	_	Polarity=Neg	65	advmod	_	SpaceAfter=No
+64	չ	չի	PART	_	Polarity=Neg	65	advmod	_	_
 65	ապրի	ապրիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
 66	ի	ի	ADP	_	AdpType=Prep	68	case	_	_
 67	նմայ	նա	PRON	_	Case=Dat|Deixis=Remt|Number=Sing|PronType=Dem	68	nmod:poss	_	_

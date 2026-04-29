@@ -1107,7 +1107,7 @@
 61	:	:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = medical-00AB-00010IEL
-# text = Եւ կայ այլ օձ, որ անուանի յապիս. եւ այս օձս յորժամ ի գնալն լինի, նայ զգլուխն բարձր կենայ ի կիսոյն ի վեր, եւ զթոյնքն փչէ ի բերանոյն, եւ ընդ որ երթայ՝ խոտն չորնայ. եւ իր խայթածին հետն զերթ ասխան հետ լինի, բայց ցաւն՝ դժար եւ դժնիկ, եւ ելանէ ի խայթածէն արիւն, եւ ոչ ուռենայ, եւ խայթածն կուրնայ առ ժամն եւ պահն մեռնի:
+# text = Եւ կայ այլ օձ, որ անուանի յապիս. եւ այս օձս յորժամ ի գնալն լինի, նայ զգլուխն բարձր կենայ ի կիսոյն ի վեր, եւ զթոյնքն փչէ ի բերանոյն, եւ ընդ որ երթայ՝ խոտն չորնայ. եւ իր խայթածին հետն զերթ ասխան հետ լինի, բայց ցաւն՝ դժար եւ դժնիկ, եւ ելանէ ի խայթածէն արիւն, եւ ոչ ուռենայ. եւ խայթածն կուրնայ առ ժամն եւ պահն մեռնի:
 1	Եւ	եւ	CCONJ	_	_	2	cc	_	_
 2	կայ	կամ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 3	այլ	այլ	DET	_	PronType=Ind	4	det	_	_
@@ -1119,11 +1119,11 @@
 9	.	.	PUNCT	_	_	22	punct	_	_
 10	եւ	եւ	CCONJ	_	_	22	cc	_	_
 11	այս	այս	DET	_	Deixis=Prox|PronType=Dem	12	det	_	_
-12	օձս	օձ	NOUN	_	Animacy=Nhum|Case=Nom|Deixis[psor]=Prox|Number=Sing	16	nsubj	_	_
+12	օձս	օձ	NOUN	_	Animacy=Nhum|Case=Nom|Deixis[psor]=Prox|Number=Sing	15	nsubj	_	_
 13	յորժամ	յորժամ	ADV	_	_	15	advmod	_	_
 14	ի	ի	ADP	_	AdpType=Prep	15	case	_	_
-15	գնալն	գնալ	VERB	_	Case=Nom|Definite=Def|Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	16	obl	_	_
-16	լինի	լինիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	22	advcl	_	SpaceAfter=No
+15	գնալն	գնալ	VERB	_	Case=Nom|Definite=Def|Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	22	advcl	_	_
+16	լինի	լինիլ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	նայ	նայ	SCONJ	_	Style=Var	22	mark	_	_
 19-20	զգլուխն	_	_	_	_	_	_	_	_
@@ -1132,9 +1132,9 @@
 21	բարձր	բարձր	ADJ	_	_	22	xcomp	_	_
 22	կենայ	կենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
 23	ի	ի	ADP	_	AdpType=Prep	24	case	_	_
-24	կիսոյն	կէս	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	26	obl	_	_
-25	ի	ի	ADP	_	AdpType=Prep	26	case	_	_
-26	վեր	վեր	ADV	_	_	22	advmod	_	SpaceAfter=No
+24	կիսոյն	կէս	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	25	obl	_	_
+25	ի	ի	ADP	_	AdpType=Prep|ExtPos=ADV	22	advmod	_	_
+26	վեր	վեր	ADV	_	_	25	fixed	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	31	punct	_	_
 28	եւ	եւ	CCONJ	_	_	31	cc	_	_
 29-30	զթոյնքն	_	_	_	_	_	_	_	_
@@ -1143,8 +1143,8 @@
 31	փչէ	փչել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Style=Arch|Subcat=Tran|VerbForm=Fin|Voice=Act	2	conj	_	_
 32	ի	ի	ADP	_	AdpType=Prep	33	case	_	_
 33	բերանոյն	բերան	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	31	obl	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	38	punct	_	_
-35	եւ	եւ	CCONJ	_	_	38	cc	_	_
+34	,	,	PUNCT	_	_	41	punct	_	_
+35	եւ	եւ	CCONJ	_	_	41	cc	_	_
 36	ընդ	ընդ	ADP	_	AdpType=Prep|ExtPos=ADV	38	advmod	_	_
 37	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	36	fixed	_	_
 38	երթայ	երթալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	41	advcl	_	SpaceAfter=No
@@ -1158,29 +1158,29 @@
 46	հետն	հետ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	49	nsubj	_	_
 47	զերթ	զերթ	ADP	_	AdpType=Prep|Style=Var	49	case	_	_
 48	ասխան	ասեխ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	49	nmod:poss	_	_
-49	հետ	հետ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	2	conj	_	_
+49	հետ	հետ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	2	parataxis	_	_
 50	լինի	լինիլ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	49	cop	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	53	punct	_	_
 52	բայց	բայց	CCONJ	_	_	53	cc	_	_
 53	ցաւն	ցաւ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	49	conj	_	SpaceAfter=No
-54	՝	՝	PUNCT	_	_	13	punct	_	_
+54	՝	՝	PUNCT	_	_	55	punct	_	_
 55	դժար	դժար	ADJ	_	Degree=Pos	53	orphan	_	_
-56	եւ	եւ	CCONJ	_	_	15	cc	_	_
+56	եւ	եւ	CCONJ	_	_	57	cc	_	_
 57	դժնիկ	դժնիկ	ADJ	_	Degree=Pos	55	conj	_	SpaceAfter=No
 58	,	,	PUNCT	_	_	60	punct	_	_
 59	եւ	եւ	CCONJ	_	_	60	cc	_	_
-60	ելանէ	ելանել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+60	ելանէ	ելանել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	49	conj	_	_
 61	ի	ի	ADP	_	AdpType=Prep	62	case	_	_
 62	խայթածէն	խայթած	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Def|Number=Sing	60	obl	_	_
 63	արիւն	արիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Coll	60	nsubj	_	SpaceAfter=No
 64	,	,	PUNCT	_	_	67	punct	_	_
 65	եւ	եւ	CCONJ	_	_	67	cc	_	_
 66	ոչ	ոչ	PART	_	Polarity=Neg	67	advmod	_	_
-67	ուռենայ	ուռենալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	SpaceAfter=No
-68	,	,	PUNCT	_	_	71	punct	_	_
+67	ուռենայ	ուռենալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	49	conj	_	SpaceAfter=No
+68	.	.	PUNCT	_	_	71	punct	_	_
 69	եւ	եւ	CCONJ	_	_	71	cc	_	_
 70	խայթածն	խայթած	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	71	nsubj	_	_
-71	կուրնայ	կուրնալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+71	կուրնայ	կուրնալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	_
 72	առ	առ	ADP	_	AdpType=Prep	73	case	_	_
 73	ժամն	ժամ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	71	obl	_	_
 74	եւ	եւ	CCONJ	_	_	76	cc	_	_

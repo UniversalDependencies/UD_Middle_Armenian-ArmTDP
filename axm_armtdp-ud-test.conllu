@@ -1129,7 +1129,7 @@
 19-20	զգլուխն	_	_	_	_	_	_	_	_
 19	զ	զ	ADP	_	AdpType=Prep	20	case	_	_
 20	գլուխն	զգլուխ	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Sing	22	nsubj	_	_
-21	բարձր	բարձր	ADJ	_	_	22	xcomp	_	_
+21	բարձր	բարձր	ADJ	_	_	22	advcl	_	_
 22	կենայ	կենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
 23	ի	ի	ADP	_	AdpType=Prep	24	case	_	_
 24	կիսոյն	կէս	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	25	obl	_	_
@@ -1212,23 +1212,23 @@
 19	նայ	նայ	SCONJ	_	Style=Var	22	mark	_	_
 20	ծածուկ	ծածուկ	ADJ	_	Degree=Pos	21	amod	_	_
 21	մարմինն	մարմին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	22	nsubj	_	_
-22	ուռենայ	ուռենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+22	ուռենայ	ուռենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	_
 23	եւ	եւ	CCONJ	_	_	24	cc	_	_
 24	կանգնի	կանգնիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	22	conj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	եւ	եւ	CCONJ	_	_	27	cc	_	_
-27	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+27	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	_
 28	ի	ի	ADP	_	AdpType=Prep	29	case	_	_
 29	մարդոյն	մարդ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	27	obl	_	_
 30	յոլով	յոլով	ADJ	_	Degree=Pos	31	amod	_	_
 31	փուք	փուք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	27	nsubj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	եւ	եւ	CCONJ	_	_	34	cc	_	_
-34	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+34	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	_
 35	ի	ի	ADP	_	AdpType=Prep	37	case	_	_
 36-37	յերանացն	_	_	_	_	_	_	_	_
 36	յ	ի	ADP	_	AdpType=Prep	37	case	_	_
-37	երանացն	երանք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Ptan|Style=Arch	2	conj	_	_
+37	երանացն	երանք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Ptan|Style=Arch	34	obl	_	_
 38	սերմն	սերմ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	34	nsubj	_	_
 39	եւ	եւ	CCONJ	_	_	49	cc	_	_
 40	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
@@ -1238,8 +1238,8 @@
 44	/	/	PUNCT	_	_	45	punct	_	SpaceAfter=No
 45	3	3	NUM	_	NumForm=Digit|NumType=Card	42	appos	_	SpaceAfter=No
 46	/	/	PUNCT	_	_	45	punct	_	_
-47	աւուրն	աւուր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	49	parataxis	_	SpaceAfter=No
+47	աւուրն	աւուր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	49	obl	_	SpaceAfter=No
 48	)	)	PUNCT	_	_	47	punct	_	_
-49	մեռնի	մեռնիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	SpaceAfter=No
+49	մեռնի	մեռնիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	22	conj	_	SpaceAfter=No
 50	:	:	PUNCT	_	_	2	punct	_	SpaceAfter=No
 

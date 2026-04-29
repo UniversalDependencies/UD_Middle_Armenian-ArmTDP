@@ -989,7 +989,7 @@
 69	:	:	PUNCT	_	_	4	punct	_	_
 
 # sent_id = medical-00AB-00010IEJ
-# text = Եւ այլ ոմանք ասեն թէ այս օձս, որ անուանի ատօրօս, ժամ ժամ խեւնայ եւ մխուի ի ջուրն, եւ յորժամ զմարդն խայթէ, նայ խայթածն սեւնայ եւ ելնէ յիւրմէն գիճութիւն սեւ գոյն՝ հոտած, եւ մեռած մարդու գայ հոտ ի նմանէ:
+# text = Եւ այլ ոմանք ասեն թէ այս օձս, որ անուանի ատօրօս, ժամ ժամ խեւնայ եւ մխուի ի ջուրն. եւ յորժամ զմարդն խայթէ, նայ խայթածն սեւնայ եւ ելնէ յիւրմէն գիճութիւն սեւ գոյն՝ հոտած, եւ մեռած մարդու գայ հոտ ի նմանէ:
 1	Եւ	եւ	CCONJ	_	_	4	cc	_	_
 2	այլ	այլ	DET	_	PronType=Ind	3	det	_	_
 3	ոմանք	ոմանք	PRON	_	Case=Nom|Number=Plur|PronType=Ind	4	nsubj	_	_
@@ -1009,8 +1009,8 @@
 17	մխուի	մխուիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	15	conj	_	_
 18	ի	ի	ADP	_	AdpType=Prep	19	case	_	_
 19	ջուրն	ջուր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	17	obl	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	25	punct	_	_
-21	եւ	եւ	CCONJ	_	_	25	cc	_	_
+20	.	.	PUNCT	_	_	29	punct	_	_
+21	եւ	եւ	CCONJ	_	_	29	cc	_	_
 22	յորժամ	յորժամ	ADV	_	_	25	advmod	_	_
 23-24	զմարդն	_	_	_	_	_	_	_	_
 23	զ	զ	ADP	_	AdpType=Prep	25	case	_	_
@@ -1019,9 +1019,9 @@
 26	,	,	PUNCT	_	_	29	punct	_	_
 27	նայ	նայ	SCONJ	_	Style=Var	29	mark	_	_
 28	խայթածն	խայթած	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	29	nsubj	_	_
-29	սեւնայ	սեւնալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	15	conj	_	_
+29	սեւնայ	սեւնալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
 30	եւ	եւ	CCONJ	_	_	31	cc	_	_
-31	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	15	conj	_	_
+31	ելնէ	ելնել	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	29	conj	_	_
 32-33	յիւրմէն	_	_	_	_	_	_	_	_
 32	յ	ի	ADP	_	AdpType=Prep	33	case	_	_
 33	իւրմէն	ինք	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs|Style=Arch	31	obl	_	_
@@ -1034,7 +1034,7 @@
 40	եւ	եւ	CCONJ	_	_	43	cc	_	_
 41	մեռած	մեռնիլ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	42	acl	_	_
 42	մարդու	մարդ	NOUN	_	Animacy=Hum|Case=Dat|Definite=Ind|Number=Sing	44	nmod:poss	_	_
-43	գայ	գալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	15	conj	_	_
+43	գայ	գալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	29	conj	_	_
 44	հոտ	հոտ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	43	nsubj	_	_
 45	ի	ի	ADP	_	AdpType=Prep	46	case	_	_
 46	նմանէ	նա	PRON	_	Case=Abl|Deixis=Remt|Number=Sing|PronType=Dem|Style=Arch	43	obl	_	SpaceAfter=No
@@ -1050,13 +1050,13 @@
 6	որ	որ	SCONJ	_	_	7	mark	_	_
 7	անուանի	անուանիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl	_	_
 8	ֆիխուսիուս	ֆիխուսիուս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	7	xcomp	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	14	punct	_	_
-10	եւ	եւ	CCONJ	_	_	14	cc	_	_
+9	.	.	PUNCT	_	_	13	punct	_	_
+10	եւ	եւ	CCONJ	_	_	13	cc	_	_
 11	ինքս	ինք	PRON	_	Case=Nom|Deixis[psor]=Prox|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	այլ	այլ	ADV	_	Degree=Cmp	13	advmod	_	_
 13	փոքր	փոքր	ADJ	_	Degree=Pos	2	conj	_	_
 14	լինի	լինիլ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	17	punct	_	_
+15	,	,	PUNCT	_	_	18	punct	_	_
 16	քան	քան	ADP	_	AdpType=Prep	18	case	_	_
 17-18	զիժն	_	_	_	_	_	_	_	SpaceAfter=No
 17	զ	զ	ADP	_	AdpType=Prep	18	case	_	_
@@ -1064,7 +1064,7 @@
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	այլ	այլ	ADV	_	Degree=Cmp	21	advmod	_	_
 21	հաստ	հաստ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	13	conj	_	_
-22	եւ	եւ	CCONJ	_	_	23	cc	_	_
+22	եւ	եւ	CCONJ	_	_	24	cc	_	_
 23	այլ	այլ	ADV	_	Degree=Cmp	24	advmod	_	_
 24	թանձր	թանձր	ADJ	_	Degree=Pos	13	conj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	32	punct	_	_
@@ -1075,34 +1075,34 @@
 30-31	յիժ	_	_	_	_	_	_	_	_
 30	յ	ի	ADP	_	AdpType=Prep	31	case	_	_
 31	իժ	յիժ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	32	nmod	_	_
-32	օձի	օձ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	2	conj	_	_
+32	օձի	օձ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	2	parataxis	_	_
 33	նման	նման	ADP	_	AdpType=Post	32	case	_	_
 34	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	32	cop	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	եւ	եւ	CCONJ	_	_	37	cc	_	_
-37	ուռենայ	ուռենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+37	ուռենայ	ուռենալ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	32	conj	_	_
 38	խայթածն	խայթած	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	37	nsubj	_	_
 39	եւ	եւ	CCONJ	_	_	41	cc	_	_
 40	այլ	այլ	DET	_	PronType=Ind	41	det	_	_
 41	մարմինն	մարմին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	38	conj	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	22	punct	_	_
+42	,	,	PUNCT	_	_	44	punct	_	_
 43	որպէս	որպէս	ADP	_	AdpType=Prep	44	case	_	_
 44	արծուիք	արծուիք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Ptan	37	obl	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	26	punct	_	_
+45	,	,	PUNCT	_	_	48	punct	_	_
 46	մարմինն	մարմին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	48	nsubj	_	_
 47	լինի	լինիլ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Tense=Pres|VerbForm=Fin	48	cop	_	_
-48	թոյլ	թոյլ	ADJ	_	_	2	conj	_	SpaceAfter=No
+48	թոյլ	թոյլ	ADJ	_	_	32	conj	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	51	punct	_	_
 50	եւ	եւ	CCONJ	_	_	51	cc	_	_
-51	կտրտի	կտրտիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+51	կտրտի	կտրտիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	32	conj	_	_
 52	միսն	միս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	51	nsubj	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	55	punct	_	_
 54	եւ	եւ	CCONJ	_	_	55	cc	_	_
-55	ընկնի	ընկնիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+55	ընկնի	ընկնիլ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	32	conj	_	_
 56	շատ	շատ	ADJ	_	_	57	amod	_	_
 57	գիջութենէն	գիջութիւն	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Def|Number=Sing	55	obl	_	_
 58	եւ	եւ	CCONJ	_	_	60	cc	_	_
-59	շատ	շատ	ADJ	_	_	60	advmod	_	_
+59	շատ	շատ	ADJ	_	_	60	amod	_	_
 60	ցաւոյն	ցաւ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	57	conj	_	SpaceAfter=No
 61	:	:	PUNCT	_	_	2	punct	_	_
 

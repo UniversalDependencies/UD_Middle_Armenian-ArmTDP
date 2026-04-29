@@ -54,7 +54,7 @@
 25-26	զգանկտվորացն	_	_	_	_	_	_	_	_
 25	զ	զ	ADP	_	AdpType=Prep	26	case	_	_
 26	գանկտվորացն	գանկտվոր	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Plur	23	conj	_	_
-27	դարպաս	դարպաս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	26	compound:lvc	_	_
+27	դարպաս	դարպաս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	28	compound:lvc	_	_
 28	բռնէ	բռնել	VERB	_	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 29	եւ	եւ	CCONJ	_	_	31	cc	_	_
 30	իրաւունք	իրաւունք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	31	compound:lvc	_	_
@@ -137,7 +137,7 @@
 32	հնազանդութեամբ	հնազանդութիւն	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Coll	33	obl	_	_
 33	բերէ	բերել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
 34	եւ	եւ	CCONJ	_	_	36	cc	_	_
-35	չտայ	տալ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Cau	36	aux:caus	_	SpaceAfter=No
+35	չտայ	տալ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Cau	36	aux:caus	_	_
 36	սպաննել	սպաննել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	33	conj	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	40	punct	_	_
 38	եւ	եւ	CCONJ	_	_	40	cc	_	_
@@ -155,7 +155,7 @@
 49	եւ	եւ	CCONJ	_	_	61	cc	_	_
 50-51	զայնոք	_	_	_	_	_	_	_	_
 50	զ	զ	ADP	_	AdpType=Prep	51	case	_	_
-51	այնոք	այնոք	PRON	_	Case=Acc|Deixis=Remt|Number=Plur|PronType=Dem	61	obj	_	_
+51	այնոք	այնոք	PRON	_	Case=Acc|Deixis=Remt|Number=Plur|PronType=Dem	61	dislocated	_	_
 52	որ	որ	PRON	_	Case=Nom|Number=Sing|PronType=Rel	55	nsubj	_	_
 53	ի	ի	ADP	_	AdpType=Prep	54	case	_	_
 54	մեղայն	մեղայ	NOUN	_	Animacy=Nhum|Case=Acc|Definite=Def|Number=Coll	55	compound:lvc	_	_

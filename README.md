@@ -9,7 +9,7 @@ The UD_Middle_Armenian-ArmTDP treebank is derived from the Middle Armenian compo
 
 # Acknowledgments
 
-This research was supported by the Higher Education and Science Committee of the Ministry of Education, Science, Culture and Sports of the Republic of Armenia (Research Project № 27TARGET-6B173).
+This work was supported by the Higher Education and Science Committee of the Ministry of Education, Science, Culture and Sports of the Republic of Armenia (Research Project № 27TARGET-6B173). The main contributor, Anna S. Danielyan, was involved in COST Action CA21167 — Universality, Diversity and Idiosyncrasy in Language Technology ([UniDive](https://unidive.lisn.upsaclay.fr/)).
 
 
 ## References

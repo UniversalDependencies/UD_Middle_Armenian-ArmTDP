@@ -31,7 +31,7 @@ This treebank can also be referenced:
 
 UD_Middle_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependencies.org/format.html) format with the following specifics:
 * Sentence-level comments:
-  * Document titles are present as `# doc_title = Քննութիւն բնութեան մարդոյ.
+  * Document titles are present as `# doc_title = Քննութիւն բնութեան մարդոյ`.
   * Document boundaries are present as `# newdoc id = legal/medical-xxxx`.
   * Sentence-level paragraph boundaries are present as `# newpar id = newdoc-xxxx`.
   * Sentence boundaries are present as `# sent_id = newdoc-newparxxxx`.

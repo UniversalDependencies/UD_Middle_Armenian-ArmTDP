@@ -1,0 +1,39 @@
+Running the following version of UD tools:
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 5 17:01:41 2026 +0200
+Evaluating the following revision of UD_Middle_Armenian-ArmTDP:
+commit 4c85d1478f27c40e52a25af2fcc4f195f488235b
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 09:40:36 2026 +0200
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'axm_armtdp'
+Language code (from CoNLL-U file name) = 'axm'
+Found the following data files: axm_armtdp-ud-test.conllu
+Size: counted 1093 of 1093 words (nodes).
+Size: min(0, log((N/1000)**2)) = 0.177852418388803.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 14 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 707 out of 1093 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 29 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 2 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang axm --max-err=10 UD_Middle_Armenian-ArmTDP/axm_armtdp-ud-test.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.0128733873165676) = 0.00476792122835837
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
+(weight=0.111111111111111) * (score{udeprels}=0.783783783783784) = 0.0870870870870871
+(TOTAL score=0.41866691826461) * (availability=1) * (validity=1) = 0.41866691826461
+STARS = 2
+UD_Middle_Armenian-ArmTDP	0.41866691826461	2

@@ -39,12 +39,26 @@ UD_Middle_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependencie
 * No enhanced dependencies or empty nodes present in DEPS column.
 * MISC column:
   * `SpaceAfter=No` markers are present.
+  * `Lang=` markers are present.
+  * Form (Translit) and lemma (LTranslit) transliterations are present.
 * Document, paragraph, sentence, and token ids are 4-character base-32 numbers. They survive treebank updates.
 
 
 
 # Changelog
 
+* 2026-11-15 **v2.19**
+   * Added new texts: 1K→5K.
+   * Reconsidered `Animacy`.
+   * Introduced `Lang=xcl` for Classical Armenian forms.
+   * Improved `Mood` and introduced `Nec` and `Cnd`.
+   * Reconsidered `Number`: removed `Coll`, added `Ptan`.
+   * Improved `Style=Arch` for present and imperfect indicative.
+   * Improved `Voice=Mid`.
+   * Added `flat:range`, `flat:name`, removed `det:poss`.
+   * Added transliteration (ISO 9985:1996).
+   * Fixed some annotation errors and inconsistencies.
+     
 * 2026-05-15 v2.18
   * Initial release in Universal Dependencies.
 

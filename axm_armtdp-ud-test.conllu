@@ -4767,7 +4767,7 @@
 10	խընդրել	խընդրել	VERB	_	VerbForm=Inf	1	xcomp	_	Translit=xëndrel|Lang=xcl|LTranslit=xëndrel
 11	թողութիւն	թողութիւն	NOUN	_	Case=Nom|Definite=Ind|Number=Sing	10	obj	_	Translit=t’oġowt’iwn|LTranslit=t’oġowt’iwn
 12	մեղաց	մեղ	NOUN	_	Case=Gen|Number=Plur	11	nmod:poss	_	Translit=meġac’|Lang=xcl|LTranslit=meġ
-13	իմոց	իմ	DET	_	Case=Dat|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	SpaceAfter=No|Translit=imoc’|Lang=xcl|LTranslit=im
+13	իմոց	իմ	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	SpaceAfter=No|Translit=imoc’|Lang=xcl|LTranslit=im
 14	:	:	PUNCT	_	Foreign=Yes	1	punct	_	Translit=:|LTranslit=:
 
 # sent_id = nonfiction-0006-0001000G
